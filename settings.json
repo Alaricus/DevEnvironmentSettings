@@ -1,0 +1,90 @@
+{
+  // Requires Atom One Dark Theme extension to be installed.
+  // https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark
+  
+  // Requires Firs Code iScript font to be installed.
+  // https://github.com/kencrocken/FiraCodeiScript
+  
+  // Requires Bracket Pair Colorizer extension to be installed.
+  // https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer
+  
+  // Other installed extensions not configured here.
+  // Path Intellisense: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+  // Import Cost: https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
+
+  // This line is only for Windows.
+  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.editor.tabSizing": "shrink",
+
+  "editor.fontFamily": "Fira Code iScript",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.minimap.renderCharacters": false,
+  "editor.scrollBeyondLastLine": false,
+
+  "terminal.integrated.fontFamily": "Fira Code iScript",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.15,
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "files.trimTrailingWhitespace": true,
+  "javascript.validate.enable" : false ,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/coverage": true
+  },
+  "window.zoomLevel": 0,
+
+  "bracketPairColorizer.consecutivePairColors": [
+    "()",
+    "[]",
+    "{}",
+    ["#E3E3E3", "#7281CC", "#CC72AE", "#CCBD72", "#72CC90"],
+    "Red"
+  ],
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword.control",
+          "storage",
+          "meta.class.instance.constructor",
+          "variable.language",
+          "text.html.basic entity.other.attribute-name.html",
+          "text.html.basic entity.other.attribute-name",
+        ],
+        "settings": {
+          "fontStyle": "italic",
+        }
+      },
+      {
+        "scope": [
+          "storage.type.function.arrow",
+        ],
+        "settings": {
+          "fontStyle": "",
+        }
+      },
+      {
+        "scope": [
+          "variable.other.object",
+          "variable.other.property",
+          "support.variable.property.dom.js",
+        ],
+        "settings": {
+          "foreground": "#cccccc",
+        }
+      },
+    ]
+  },
+  "breadcrumbs.enabled": true
+}
