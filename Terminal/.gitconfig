@@ -1,0 +1,14 @@
+# This is Git's per-user configuration file
+
+# Work user
+# The default for everything on this computer
+[user]
+name = Alaric von Teplitz
+email = alaric.von.teplitz@my-current-employer.com
+
+# Personal user
+# Only works inside the ~/personal/ dir, but only for dirs
+# which are valid git projects (initialized or cloned)
+[includeIf "gitdir:~/personal/"]
+    path = ~/personal/.gitconfig-personal
+

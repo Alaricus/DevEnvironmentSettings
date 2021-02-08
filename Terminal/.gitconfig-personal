@@ -1,0 +1,6 @@
+# Personal projects user.
+# Only works inside the ~/personal/ dir, but only for dirs
+# which are valid git projects (initialized or cloned.)
+[user]
+name = Alaric von Teplitz
+email = alaric.von.teplitz@personal-email.com

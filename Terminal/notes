@@ -1,0 +1,7 @@
+My personal private key goes into the .ssh directory along with the work key. I usually name it pr_rsa
+
+Terminal colors:
+  text:       255/176/0    (#FFB000)
+  selection:  116/82/55    (#745237)
+  background: 23/23/23     (#171717)
+  curson:     255/176/139  (#FFB08B)
