@@ -5,8 +5,8 @@
   // Requires Fira Code iScript font to be installed.
   // https://github.com/kencrocken/FiraCodeiScript
   
-  // Requires Bracket Pair Colorizer extension to be installed.
-  // https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer
+  // Requires Bracket Pair Colorizer 2 extension to be installed.
+  // https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2
   
   // Other installed extensions not configured here.
   // Path Intellisense: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
@@ -17,6 +17,13 @@
 
   "workbench.colorTheme": "Atom One Dark",
   "workbench.editor.tabSizing": "shrink",
+    "workbench.colorCustomizations": {
+    "terminal.background":"#1b1b1b",
+    "terminal.foreground":"#ffb000",
+    "tab.activeBorder": "#555555",
+    "tab.activeBackground": "#333333"
+  },
+  "terminal.integrated.inheritEnv": true,
 
   "editor.fontFamily": "Fira Code iScript",
   "editor.fontLigatures": true,
@@ -42,12 +49,10 @@
   },
   "window.zoomLevel": 0,
 
-  "bracketPairColorizer.consecutivePairColors": [
-    "()",
-    "[]",
-    "{}",
-    ["#E3E3E3", "#7281CC", "#CC72AE", "#CCBD72", "#72CC90"],
-    "Red"
+  "bracket-pair-colorizer-2.colors": [
+    "Goldenrod",
+    "Orchid",
+    "CornflowerBlue"
   ],
 
   "editor.tokenColorCustomizations": {
