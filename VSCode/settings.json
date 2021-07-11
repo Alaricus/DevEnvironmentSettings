@@ -11,15 +11,13 @@
   // Other installed extensions not configured here.
   // Path Intellisense: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
   // Import Cost: https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
-
-  // This line is only for Windows.
-  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  // Git Lerns: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 
   "workbench.colorTheme": "Atom One Dark",
   "workbench.editor.tabSizing": "shrink",
     "workbench.colorCustomizations": {
-    "terminal.background":"#1b1b1b",
-    "terminal.foreground":"#ffb000",
+    // "terminal.background":"#1b1b1b",
+    // "terminal.foreground":"#ffb000",
     "tab.activeBorder": "#555555",
     "tab.activeBackground": "#333333"
   },
