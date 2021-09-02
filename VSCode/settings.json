@@ -1,12 +1,9 @@
 {
-  // Requires Atom One Dark Theme extension to be installed.
-  // https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark
-  
   // Requires Fira Code iScript font to be installed.
   // https://github.com/kencrocken/FiraCodeiScript
-  
-  // Requires Bracket Pair Colorizer 2 extension to be installed.
-  // https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2
+
+  // Requires Atom One Dark Theme extension to be installed.
+  // https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark
   
   // Other installed extensions not configured here.
   // Path Intellisense: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
@@ -15,44 +12,25 @@
 
   "workbench.colorTheme": "Atom One Dark",
   "workbench.editor.tabSizing": "shrink",
-    "workbench.colorCustomizations": {
-    // "terminal.background":"#1b1b1b",
-    // "terminal.foreground":"#ffb000",
+  "workbench.colorCustomizations": {
     "tab.activeBorder": "#555555",
     "tab.activeBackground": "#333333"
   },
+
   "terminal.integrated.inheritEnv": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontFamily": "Fira Code iScript",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.15,
 
   "editor.fontFamily": "Fira Code iScript",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "editor.tabSize": 2,
   "editor.minimap.renderCharacters": false,
   "editor.scrollBeyondLastLine": false,
-
-  "terminal.integrated.fontFamily": "Fira Code iScript",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.lineHeight": 1.15,
-
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "files.trimTrailingWhitespace": true,
-  "javascript.validate.enable" : false ,
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/dist": true,
-    "**/coverage": true
-  },
-  "window.zoomLevel": 0,
-
-  "bracket-pair-colorizer-2.colors": [
-    "Goldenrod",
-    "Orchid",
-    "CornflowerBlue"
-  ],
-
+  "editor.bracketPairColorization.enabled": true,
+  "editor.renderWhitespace": "boundary",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -89,6 +67,20 @@
       },
     ]
   },
+
+  "eslint.alwaysShowStatus": true,
+  "eslint.packageManager": "yarn",
   "breadcrumbs.enabled": true,
-  "editor.renderWhitespace": "boundary"
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.trimTrailingWhitespace": true,
+  "javascript.validate.enable" : false ,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/coverage": true
+  }
 }
