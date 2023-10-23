@@ -69,7 +69,6 @@
   },
 
   "eslint.alwaysShowStatus": true,
-  "eslint.packageManager": "yarn",
   "breadcrumbs.enabled": true,
   "security.workspace.trust.untrustedFiles": "open",
   "files.trimTrailingWhitespace": true,
